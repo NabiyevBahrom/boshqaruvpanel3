@@ -3,16 +3,16 @@ google.charts.load("current", {packages:["corechart"]});
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['Foyda',     11],
+          ['Zarar',      2],
+          ['Qaytarilgan',  2],
+          ['sotib olingan', 2],
+          ['Sotilgan',    7]
         ]);
 
         var options = {
-          title: 'My Daily Activities',
-          pieHole: 0.4,
+          title: 'Oylik Hisobotlar',
+          pieHole: 0.2,
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
