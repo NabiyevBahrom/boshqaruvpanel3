@@ -12,7 +12,7 @@ google.charts.load('current', {'packages':['corechart']});
 
         var options = {
           title: 'Sotuv hisobotlar',
-          hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
+          hAxis: {title: 'Yillik',  titleTextStyle: {color: '#333'}},
           vAxis: {minValue: 0}
         };
 
